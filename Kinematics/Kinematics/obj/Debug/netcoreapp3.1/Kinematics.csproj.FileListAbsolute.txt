@@ -1,0 +1,13 @@
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Kinematics.exe
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Kinematics.deps.json
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Kinematics.runtimeconfig.json
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Kinematics.runtimeconfig.dev.json
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Kinematics.dll
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Kinematics.pdb
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.csprojAssemblyReference.cache
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.AssemblyInfoInputs.cache
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.AssemblyInfo.cs
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.csproj.CoreCompileInputs.cache
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.dll
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.pdb
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.genruntimeconfig.cache

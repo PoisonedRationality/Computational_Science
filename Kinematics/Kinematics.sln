@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinematics", "Kinematics\Kinematics.csproj", "{8DB54015-4120-46D8-91A2-2AAE86EEE62F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F5781DE-EBFC-4EED-8F00-43B967D30805}
+	EndGlobalSection
+EndGlobal

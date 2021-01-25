@@ -2,9 +2,10 @@
 
 namespace Kinematics
 {
-    class Program
+
+    class Homework1
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Challenge();
 

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinematics", "Kinematics\Kinematics.csproj", "{8DB54015-4120-46D8-91A2-2AAE86EEE62F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinematics", "Kinematics\Kinematics.csproj", "{8DB54015-4120-46D8-91A2-2AAE86EEE62F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectileMotion", "..\ProjectileMotion\ProjectileMotion\ProjectileMotion.csproj", "{485F1DC4-E7B8-4588-95D1-FB95506259EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{CAD84C5E-96C9-4884-9294-CE29398A1BDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB54015-4120-46D8-91A2-2AAE86EEE62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485F1DC4-E7B8-4588-95D1-FB95506259EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485F1DC4-E7B8-4588-95D1-FB95506259EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485F1DC4-E7B8-4588-95D1-FB95506259EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485F1DC4-E7B8-4588-95D1-FB95506259EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD84C5E-96C9-4884-9294-CE29398A1BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD84C5E-96C9-4884-9294-CE29398A1BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD84C5E-96C9-4884-9294-CE29398A1BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD84C5E-96C9-4884-9294-CE29398A1BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

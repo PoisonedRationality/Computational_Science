@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TXC+i0rS068SR11J42pTIpWIhc2X3ywj1AsPRxwjzc17brMQeA5vcwnip/YMFkzZT1AFLZo6hF5dlcJh9kvMkQ==",
+  "success": true,
+  "projectFilePath": "C:\\School Stuff\\Computational_Science\\Kinematics\\Utility\\Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apate\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\apate\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -11,3 +11,6 @@ C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp
 C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.dll
 C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.pdb
 C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.genruntimeconfig.cache
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Utility.dll
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\bin\Debug\netcoreapp3.1\Utility.pdb
+C:\School Stuff\Computational_Science\Kinematics\Kinematics\obj\Debug\netcoreapp3.1\Kinematics.csproj.CopyComplete

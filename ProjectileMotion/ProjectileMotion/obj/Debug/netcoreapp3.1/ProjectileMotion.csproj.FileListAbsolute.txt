@@ -11,3 +11,6 @@ C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\obj\Debu
 C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\obj\Debug\netcoreapp3.1\ProjectileMotion.dll
 C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\obj\Debug\netcoreapp3.1\ProjectileMotion.pdb
 C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\obj\Debug\netcoreapp3.1\ProjectileMotion.genruntimeconfig.cache
+C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\bin\Debug\netcoreapp3.1\Utility.dll
+C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\bin\Debug\netcoreapp3.1\Utility.pdb
+C:\School Stuff\Computational_Science\ProjectileMotion\ProjectileMotion\obj\Debug\netcoreapp3.1\ProjectileMotion.csproj.CopyComplete

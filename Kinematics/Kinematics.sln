@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectileMotion", "..\Proj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.csproj", "{CAD84C5E-96C9-4884-9294-CE29398A1BDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTest", "UtilityTest\UtilityTest.csproj", "{C6B92C0B-2D57-46D1-B1F6-E46DD430E97C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityTest", "UtilityTest\UtilityTest.csproj", "{C6B92C0B-2D57-46D1-B1F6-E46DD430E97C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Utility
 {
-    class Projectile
+    public class Projectile
     {
 
         public Projectile(Vector pos, Vector velo, Vector accel, double mass)

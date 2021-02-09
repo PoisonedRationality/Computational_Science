@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Utility
 {
-    class World
+    public class World
     {
 
         public World(double time, double c, double g_accel, List<Projectile> projectiles)

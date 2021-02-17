@@ -28,6 +28,10 @@ namespace Utility
 
         static public Vector Normalize(Vector vec)
         {
+            if (vec.Magnitude == 0)
+            {
+                throw new Exception("No Unit Vector for <0,0,0>");
+            }
             return vec / vec.Magnitude;
         }
 
@@ -35,6 +39,8 @@ namespace Utility
         {
             return (one.X * two.X + one.Y * two.Y + one.Z * two.Z);
         }
+
+        static public Vector Zero = new Vector(0, 0, 0);
 
         static public Vector Cross(Vector one, Vector two)
         {

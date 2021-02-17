@@ -7,6 +7,20 @@ namespace Utility
     public class Projectile
     {
 
+        public Projectile(Vector pos, Vector velo, Vector accel, double mass, List<Spring> springs)
+        {
+            Position = pos;
+
+            Velocity = velo;
+
+            Acceleration = accel;
+
+            Mass = mass;
+
+            Springs = springs;
+
+        }
+
         public Projectile(Vector pos, Vector velo, Vector accel, double mass)
         {
             Position = pos;
@@ -18,11 +32,25 @@ namespace Utility
             Mass = mass;
         }
 
+ 
+        public Projectile(Vector pos)
+        {
+            Position = pos;
+
+            Velocity = Vector.Zero;
+            Acceleration = Vector.Zero;
+
+            Mass = 0;
+
+        }
+
         public Projectile(double mass)
         {
-            Position = Velocity = Acceleration = new Vector(0, 0, 0);
+            Position = Velocity = Acceleration = Vector.Zero;
             Mass = mass;
         }
+
+        public List<Spring> Springs { get; set; }
 
         public Vector Position { get; set; }
 

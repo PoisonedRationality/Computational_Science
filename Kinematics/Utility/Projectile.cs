@@ -58,7 +58,7 @@ namespace Utility
 
         public Vector Acceleration { get; set; }
 
-        public double Mass { get; }
+        public double Mass { get; set; }
 
         public void Move(double dt) 
         {

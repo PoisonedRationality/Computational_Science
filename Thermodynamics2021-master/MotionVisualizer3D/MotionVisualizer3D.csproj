@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DongUtility\DongUtility.csproj" />
+    <ProjectReference Include="..\GraphControl\GraphControl.csproj" />
+    <ProjectReference Include="..\GraphData\GraphData.csproj" />
+    <ProjectReference Include="..\MotionVisualizer\MotionVisualizer.csproj" />
+    <ProjectReference Include="..\VisualizerBaseClasses\VisualizerBaseClasses.csproj" />
+    <ProjectReference Include="..\VisualizerControl\VisualizerControl.csproj" />
+    <ProjectReference Include="..\WPFUtility\WPFUtility.csproj" />
+  </ItemGroup>
+
+</Project>

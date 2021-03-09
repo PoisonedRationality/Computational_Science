@@ -1,0 +1,27 @@
+﻿<Window x:Class="MotionVisualizer3D.HowLongQuery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotionVisualizer3D"
+        mc:Ignorable="d"
+        Background="LightGray"
+        Title="How Long?" Height="140" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Text="At what time should the simulation stop?"></TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox Name="StopTimeText" Text="0" HorizontalAlignment="Center" Width="50" Height="20" Margin="10 10 5 10"></TextBox>
+                <TextBlock Text="s" VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button  Name="okButton" Click="OkButton_Click"  IsDefault="True" Width="50" Margin="10 0 10 0">OK</Button>
+            <Button Name="cancelButton" Margin="10 0 10 0" Width="50" IsCancel="True">Cancel</Button>
+        </StackPanel>
+    </Grid>
+</Window>

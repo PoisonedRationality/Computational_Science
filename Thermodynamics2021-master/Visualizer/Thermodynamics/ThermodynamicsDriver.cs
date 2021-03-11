@@ -45,5 +45,13 @@ namespace Visualizer.Thermodynamics
 
             viz.Show();
         }
+
+        public double GetTemperature(ParticleInfo info)
+        {
+            double KE = 0.5*info.Mass*info.
+        }
+
+
+         
     }
 }

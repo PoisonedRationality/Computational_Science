@@ -7,26 +7,47 @@ using DongUtility;
 
 namespace Thermodynamics
 {
-    public class BoltzmannGenerator : FunctionGenerator
+    public class BoltzmannGenerator : RandomGenerator
     {
-        private readonly double temperature;
-        private readonly double mass;
+        private readonly double minSpeed;
+        private readonly double maxSpeed;
 
-        public BoltzmannGenerator(ParticleContainer cont, double temperature, ParticleInfo info,
-            int projectedCalls = 10000, int nDivisions = 10000) :
-            base(cont, projectedCalls, nDivisions)
+        public BoltzmannGenerator(ParticleContainer cont, double minSpeed, double maxSpeed) :
+            base(cont)
         {
-            this.temperature = temperature;
-            mass = info.Mass;
-            Setup();
+            this.minSpeed = minSpeed;
+            this.maxSpeed = maxSpeed;
         }
 
-        protected override double Function(double speed)
+        protected override double GetSpeed(ParticleInfo info)
         {
-            double speedSquared = UtilityFunctions.Square(speed);
-            return 4 * Math.PI * Math.Pow(mass / (2 * Math.PI * Constants.BoltzmannConstant * temperature), 1.5)
-                * speedSquared
-                * Math.Exp(-mass * speedSquared / (2 * Constants.BoltzmannConstant * temperature));
+            double counter = 0;
+            double mass = info.Mass;
+            double temperature = 293.15;
+            double result = 0;
+            double velo;
+            while (counter < 1)
+            {
+                velo = RandomGen.NextDouble(minSpeed, maxSpeed);
+                double equation = BoltzmannFunction(velo, mass, temperature);
+
+                double rand = RandomGen.NextDouble();
+
+                if (rand < equation)
+                {
+                    result = velo;
+                    counter++;
+                }
+            }
+
+            return result;
+        }
+
+        private static double BoltzmannFunction(double velo, double mass, double temp)
+        {
+            double result = 4 * Math.PI * (Math.Pow(mass / (2 * Math.PI * Constants.BoltzmannConstant * temp), 1.5)) * Math.Pow(velo, 2) * Math.Exp(-1 * (mass * velo * velo / (2 * Constants.BoltzmannConstant * temp)));
+            return result;
+
         }
     }
 }

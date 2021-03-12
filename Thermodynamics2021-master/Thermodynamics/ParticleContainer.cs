@@ -30,6 +30,14 @@ namespace Thermodynamics
         /// </summary>
         static protected Random Random { get { return RandomGenerator.RandomGen; } }
 
+        public double TotalForce { get; set; } = 0;
+
+        public double initialPressure { get; set; }
+
+        public double Pressure => TotalForce / (Size.X * Size.X * 6);
+
+        public double Time { get; set; } = 0;
+
         public ParticleContainer(double xSize, double ySize, double zSize)
         {
             Size = new Vector(xSize, ySize, zSize);
@@ -38,6 +46,8 @@ namespace Thermodynamics
         public ParticleContainer(double size) :
             this(size, size, size)
         { }
+
+        public static double Count = 0;
 
         public void RegisterParticleType(string name, double mass, Color color, Shapes.Shapes3D shape = Shapes.Shapes3D.Sphere)
         {
@@ -74,6 +84,20 @@ namespace Thermodynamics
         protected virtual void RemoveParticleDirectly(Particle part)
         {
             Particles.Remove(part);
+        }
+
+        public double GetTemperature()
+        {
+            double temperature;
+            double totalKE = 0;
+            foreach (Particle particle in this.Particles)
+            {
+                totalKE += particle.KineticEnergy;
+            }
+            //T = (2/3)*KE/k_b
+            temperature = (2 * totalKE / this.Particles.Count) / (3 * Constants.BoltzmannConstant);
+            
+            return temperature;
         }
 
         /// <summary>
@@ -113,6 +137,7 @@ namespace Thermodynamics
         /// </summary>
         public virtual void Update(double deltaTime)
         {
+            TotalForce = 0;
             ParticlesToAdd.Clear();
             ParticlesToRemove.Clear();
 
@@ -125,8 +150,33 @@ namespace Thermodynamics
                 ParticleUpdate(part);
             }
 
+            if (Count == 0)
+            {
+                initialPressure = Pressure;
+                Count++;
+            }
+            else
+            {
+                Vector vec = Size * 1e-3;
+                while (Math.Abs(initialPressure - Pressure) > 0.01*initialPressure)
+                {
+                    if (initialPressure > Pressure)
+                    {
+                        Size -= vec;
+                    }
+                    else
+                    {
+                        Size += vec;
+                    }
+                }
+
+            }
+
             ParticlesToAdd.ForEach((x) => AddParticleDirectly(x));
             ParticlesToRemove.ForEach((x) => RemoveParticleDirectly(x));
+
+            Time += deltaTime;
+
         }
 
         protected virtual void ParticleUpdate(Particle part)
@@ -164,9 +214,13 @@ namespace Thermodynamics
         protected virtual void CheckParticle(Particle particle)
         {
             Vector newVec = particle.Position;
+            double dt = 0.01;
+            Vector newMomentum = particle.Momentum;
+            Vector lastMomentum;
             if (particle.Position.X < 0 || particle.Position.X > Size.X)
             {
                 particle.Velocity = new Vector(-particle.Velocity.X, particle.Velocity.Y, particle.Velocity.Z);
+               
                 if (particle.Position.X < 0)
                 {
                     newVec.X = 0;
@@ -200,6 +254,13 @@ namespace Thermodynamics
                     newVec.Z = Size.Z;
                 }
             }
+
+            lastMomentum = newMomentum;
+            newMomentum = particle.Momentum;
+
+            particle.Velocity += particle.Velocity.UnitVector();
+            TotalForce += (newMomentum - lastMomentum).Magnitude / dt;
+            
             particle.Position = newVec;
         }
     }

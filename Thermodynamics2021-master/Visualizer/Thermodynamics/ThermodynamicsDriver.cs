@@ -1,4 +1,5 @@
-﻿using MotionVisualizer3D;
+﻿using DongUtility;
+using MotionVisualizer3D;
 using System.Windows.Media;
 using Thermodynamics;
 using static WPFUtility.UtilityFunctions;
@@ -11,16 +12,17 @@ namespace Visualizer.Thermodynamics
         {
             const double containerSize = 50;
             const double minSpeed = 1;
-            const double maxSpeed = 10;
-            const double mass = 1;
+            const double maxSpeed = 300;
+            const double mass = 1e-25;
             Color color = Colors.Lavender;
             const int nParticles = 1000;
-            const double deltaTime = .01;
+            const double deltaTime = 0.01;
             const string name = "Molecule";
 
             var cont = new ParticleContainer(containerSize);
             var info = new ParticleInfo(name, mass, ConvertColor(color));
             var generator = new FlatGenerator(cont, minSpeed, maxSpeed);
+            
 
             cont.Dictionary.AddParticle(info);
             cont.AddRandomParticles(generator, name, nParticles);
@@ -36,21 +38,37 @@ namespace Visualizer.Thermodynamics
                 TimeScale = 1
             };
 
+            viz.FastDraw = true;
+
             const int histogramBins = 50;
-            
-            //viz.Manager.AddSingleGraph("Temperature", ConvertColor(Colors.CornflowerBlue), () => visualization.Time, () => cont.Temperature, "Time (s)", "Temperature (K)");
+
+            double temperature = GetTemperature(cont);
+
+
+            viz.Manager.AddSingleGraph("Temperature", ConvertColor(Colors.CornflowerBlue), () => visualization.Time, () => temperature, "Time (s)", "Temperature (K)");
 
             viz.Manager.AddHist(histogramBins, ConvertColor(Colors.BlueViolet), () => cont.GetParticlePropertyList((Particle part) => part.Velocity.Magnitude), "Speed (m/s)");
-            //viz.Manager.AddText("Temperature (K)", Colors.CadetBlue, () => cont.Temperature );
+            viz.Manager.AddText("Temperature (K)", ConvertColor(Colors.CadetBlue), () => GetTemperature(cont)+"");
 
             viz.Show();
         }
 
-        public double GetTemperature(ParticleInfo info)
+        static double GetTemperature(ParticleContainer cont)
         {
-            double KE = 0.5*info.Mass*info.
+            double temperature;
+            double totalKE = 0;
+            foreach (Particle particle in cont.Particles)
+            {
+                totalKE += particle.KineticEnergy;
+            }
+            //T = (2/3)*KE/k_b
+            temperature = (2 * totalKE/cont.Particles.Count) / (3 * Constants.BoltzmannConstant);
+
+            return temperature;
+
         }
 
+    
 
          
     }

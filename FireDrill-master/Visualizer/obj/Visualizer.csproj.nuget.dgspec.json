@@ -1,0 +1,729 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Visualizer\\Visualizer.csproj": {}
+  },
+  "projects": {
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj",
+        "projectName": "DongUtility",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj",
+        "projectName": "Geometry",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj",
+        "projectName": "GraphControl",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj",
+        "projectName": "GraphData",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer3D\\MotionVisualizer3D.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer3D\\MotionVisualizer3D.csproj",
+        "projectName": "MotionVisualizer3D",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer3D\\MotionVisualizer3D.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer3D\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer\\MotionVisualizer.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer\\MotionVisualizer.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\VisualizerControl.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\VisualizerControl.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer\\MotionVisualizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer\\MotionVisualizer.csproj",
+        "projectName": "MotionVisualizer",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer\\MotionVisualizer.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\PhysicsUtility\\PhysicsUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\PhysicsUtility\\PhysicsUtility.csproj",
+        "projectName": "PhysicsUtility",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\PhysicsUtility\\PhysicsUtility.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\PhysicsUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj",
+        "projectName": "VisualizerBaseClasses",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\VisualizerControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\VisualizerControl.csproj",
+        "projectName": "VisualizerControl",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\VisualizerControl.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerBaseClasses\\VisualizerBaseClasses.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Visualizer\\Visualizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Visualizer\\Visualizer.csproj",
+        "projectName": "Visualizer",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Visualizer\\Visualizer.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Visualizer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphControl\\GraphControl.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\GraphData\\GraphData.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer3D\\MotionVisualizer3D.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\MotionVisualizer3D\\MotionVisualizer3D.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\PhysicsUtility\\PhysicsUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\PhysicsUtility\\PhysicsUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj",
+        "projectName": "WPFUtility",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\WPFUtility.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\WPFUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\DongUtility\\DongUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\Geometry\\Geometry.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

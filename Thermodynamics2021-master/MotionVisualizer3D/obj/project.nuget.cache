@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Tapr1iTYn/bb+phv5ofIIDCWX6IfrfWlGsJAMLgO6dkkR/iTn+SovMasZP/3eh5UzI/xVXRyBfd69TW/Jxs8Q==",
+  "success": true,
+  "projectFilePath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\MotionVisualizer3D\\MotionVisualizer3D.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apate\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\apate\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\apate\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

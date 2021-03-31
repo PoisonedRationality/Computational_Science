@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\WPFUtility\\WPFUtility.csproj": {}
+  },
+  "projects": {
+    "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj",
+        "projectName": "DongUtility",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\Geometry\\Geometry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\Geometry\\Geometry.csproj",
+        "projectName": "Geometry",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\Geometry\\Geometry.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\Geometry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\WPFUtility\\WPFUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\WPFUtility\\WPFUtility.csproj",
+        "projectName": "WPFUtility",
+        "projectPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\WPFUtility\\WPFUtility.csproj",
+        "packagesPath": "C:\\Users\\apate\\.nuget\\packages\\",
+        "outputPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\WPFUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\DongUtility\\DongUtility.csproj"
+              },
+              "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\Geometry\\Geometry.csproj": {
+                "projectPath": "C:\\School Stuff\\Computational_Science\\Thermodynamics2021-master\\Geometry\\Geometry.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DongUtility\DongUtility.csproj" />
+    <ProjectReference Include="..\Geometry\Geometry.csproj" />
+    <ProjectReference Include="..\VisualizerBaseClasses\VisualizerBaseClasses.csproj" />
+    <ProjectReference Include="..\WPFUtility\WPFUtility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Visualizer.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
+</Project>

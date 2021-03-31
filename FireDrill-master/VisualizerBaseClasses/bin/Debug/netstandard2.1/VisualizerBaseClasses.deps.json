@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "VisualizerBaseClasses/1.0.0": {
+        "dependencies": {
+          "GraphData": "1.0.0"
+        },
+        "runtime": {
+          "VisualizerBaseClasses.dll": {}
+        }
+      },
+      "DongUtility/1.0.0": {
+        "runtime": {
+          "DongUtility.dll": {}
+        }
+      },
+      "GraphData/1.0.0": {
+        "dependencies": {
+          "DongUtility": "1.0.0"
+        },
+        "runtime": {
+          "GraphData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisualizerBaseClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DongUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

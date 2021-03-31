@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "l0C2jWt1p/TcwY9z9SsCkpNWiLqjOEXmQalwKSWhohi08qJmfCe/KX4JVgHAte3Od24rMbbsznSmKCTm4xH+lQ==",
+  "success": true,
+  "projectFilePath": "C:\\School Stuff\\Computational_Science\\FireDrill-master\\VisualizerControl\\VisualizerControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apate\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\apate\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\apate\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

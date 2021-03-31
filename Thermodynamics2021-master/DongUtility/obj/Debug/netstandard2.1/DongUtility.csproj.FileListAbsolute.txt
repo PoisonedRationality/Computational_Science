@@ -1,0 +1,9 @@
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\bin\Debug\netstandard2.1\DongUtility.deps.json
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\bin\Debug\netstandard2.1\DongUtility.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\bin\Debug\netstandard2.1\DongUtility.pdb
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\obj\Debug\netstandard2.1\DongUtility.csprojAssemblyReference.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\obj\Debug\netstandard2.1\DongUtility.AssemblyInfoInputs.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\obj\Debug\netstandard2.1\DongUtility.AssemblyInfo.cs
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\obj\Debug\netstandard2.1\DongUtility.csproj.CoreCompileInputs.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\obj\Debug\netstandard2.1\DongUtility.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\DongUtility\obj\Debug\netstandard2.1\DongUtility.pdb

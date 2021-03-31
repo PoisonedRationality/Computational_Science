@@ -1,0 +1,14 @@
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\WPFUtility.deps.json
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\WPFUtility.dll
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\WPFUtility.pdb
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\DongUtility.dll
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\Geometry.dll
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\DongUtility.pdb
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\bin\Debug\netcoreapp3.1\Geometry.pdb
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.csprojAssemblyReference.cache
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.AssemblyInfoInputs.cache
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.AssemblyInfo.cs
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.csproj.CoreCompileInputs.cache
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.csproj.CopyComplete
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.dll
+C:\School Stuff\Computational_Science\FireDrill-master\WPFUtility\obj\Debug\netcoreapp3.1\WPFUtility.pdb

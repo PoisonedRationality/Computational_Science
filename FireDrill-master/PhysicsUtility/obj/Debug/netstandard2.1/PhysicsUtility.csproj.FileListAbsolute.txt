@@ -1,0 +1,12 @@
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\bin\Debug\netstandard2.1\PhysicsUtility.deps.json
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\bin\Debug\netstandard2.1\PhysicsUtility.dll
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\bin\Debug\netstandard2.1\PhysicsUtility.pdb
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\bin\Debug\netstandard2.1\DongUtility.dll
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\bin\Debug\netstandard2.1\DongUtility.pdb
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.csprojAssemblyReference.cache
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.AssemblyInfoInputs.cache
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.AssemblyInfo.cs
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.csproj.CoreCompileInputs.cache
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.csproj.CopyComplete
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.dll
+C:\School Stuff\Computational_Science\FireDrill-master\PhysicsUtility\obj\Debug\netstandard2.1\PhysicsUtility.pdb

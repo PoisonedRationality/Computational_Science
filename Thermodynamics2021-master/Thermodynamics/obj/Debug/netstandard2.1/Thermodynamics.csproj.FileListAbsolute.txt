@@ -1,0 +1,12 @@
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\bin\Debug\netstandard2.1\Thermodynamics.deps.json
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\bin\Debug\netstandard2.1\Thermodynamics.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\bin\Debug\netstandard2.1\Thermodynamics.pdb
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\bin\Debug\netstandard2.1\DongUtility.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\bin\Debug\netstandard2.1\DongUtility.pdb
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.csprojAssemblyReference.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.AssemblyInfoInputs.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.AssemblyInfo.cs
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.csproj.CoreCompileInputs.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.csproj.CopyComplete
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\Thermodynamics\obj\Debug\netstandard2.1\Thermodynamics.pdb

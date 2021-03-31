@@ -1,0 +1,12 @@
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\bin\Debug\netstandard2.1\GraphData.deps.json
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\bin\Debug\netstandard2.1\GraphData.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\bin\Debug\netstandard2.1\GraphData.pdb
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\bin\Debug\netstandard2.1\DongUtility.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\bin\Debug\netstandard2.1\DongUtility.pdb
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.csprojAssemblyReference.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.AssemblyInfoInputs.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.AssemblyInfo.cs
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.csproj.CoreCompileInputs.cache
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.csproj.CopyComplete
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.dll
+C:\School Stuff\Computational_Science\Thermodynamics2021-master\GraphData\obj\Debug\netstandard2.1\GraphData.pdb
